@@ -11,10 +11,9 @@ public class level1array {
   //Creating and Initializing an Array
 		
      	int[] myarray = new int[]{1, 2, 3 ,4 ,5};
-        for (int i = 0; i <5; i++) {
-            System.out.println(myarray[i]);
-            
-        }  
+     		System.out.println("Array created with elements: "  + Arrays.toString(myarray));
+
+           
    //Accessing Elements of an Array
         
            for (int i=0;i<5;i++) {
