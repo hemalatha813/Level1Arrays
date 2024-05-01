@@ -15,7 +15,7 @@ public class level1array {
    //Accessing Elements of an Array
         
            for (int i=0;i<5;i++) {
-            if(i == 0) {
+            if(i == 1) {
             	System.out.println("The first element is: " + arr[i]);            	
             }
             if(i == arr.length - 1) {
